@@ -24,14 +24,14 @@ binaryArrayToNumber([0, 1, 1, 0]); // => 6
 //With for:
 
 const binaryArrayToNumber = (arr) => {
-	let num = 0;
+	let numStr = 0;
 	for (let i = 0, exponent = 3; i < arr.length; i++) {
 		if (arr[i]) {
-			num += Math.pow(2, exponent);
+			numStr += Math.pow(2, exponent);
 		}
 		exponent--;
 	}
-	return num;
+	return numStr;
 };
 
 //Whit left logical shift:
