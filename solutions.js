@@ -1,4 +1,5 @@
-//1) PROBLEM
+//1) PROBLEM: binaryArrayToNumber.js
+
 //We are required to write a JavaScript function that takes in a binary array (consisting of only 0 and 1).
 
 //Our function should first join all the bits in the array and then return the decimal number corresponding to that binary.
@@ -46,19 +47,32 @@ const binaryArrayToNumber = (arr) => {
 	return parseInt(arr.join(''), 2);
 };
 
-//2) PROBLEM
+//2) PROBLEM: Check the exam.js
+
 // The first input array is the key to the correct answers to an exam, like ["a", "a", "b", "d"]. The second one contains a student's submitted answers.
 
-// Return the score for this array of answers, giving +4 for each correct answer, -1 for each incorrect answer, and +0 for each blank answer, represented as an empty string 
+// Return the score for this array of answers, giving +4 for each correct answer, -1 for each incorrect answer, and +0 for each blank answer, represented as an empty string
 
 // checkExam(["a", "a", "b", "c"], ["a", "a", "b", "c"]) → 16
 
 const checkExam = (array1, array2) => {
-  let counter = 0;
-  for(let i = 0; i < array1.length; i++) {
-    counter += (array1[i] === array2[i]) ? 4 : -1;
-    counter += (array2[i] == "") ? 1: 0;
-  }
-  counter = (counter < 0) ? 0 : counter;
-  return counter;
-}
+	let counter = 0;
+	for (let i = 0; i < array1.length; i++) {
+		counter += array1[i] === array2[i] ? 4 : -1;
+		counter += array2[i] == '' ? 1 : 0;
+	}
+	counter = counter < 0 ? 0 : counter;
+	return counter;
+};
+
+//3) PROBLEM: Coefficients of the Quadratic Equation.js
+
+// In this Kata you are expected to find the coefficients of quadratic equation of the given two roots (x1 and x2). (x-x1) * (x-x2) = 0. This means (x-1) * (x-2) = 0; when we do the multiplication this becomes x^2 - 3x + 2 = 0
+
+const quadratic = (x1, x2) => {
+	let terminoA = 1;
+	let terminoB = -x2 + -x1;
+	let terminoC = -x2 * -x1;
+	let array = [terminoA, terminoB, terminoC];
+	return array;
+};
