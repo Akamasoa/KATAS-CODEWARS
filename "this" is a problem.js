@@ -1,4 +1,4 @@
-//5) PROBLEM: "this" is a problem.js
+//PROBLEM: "this" is a problem.js
 
 /*
 Description:
