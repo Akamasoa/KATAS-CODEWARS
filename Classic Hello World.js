@@ -6,3 +6,9 @@ Hints:
 Check your references
 Think about the scope of your method
 */
+
+class Solution{
+  static main() {
+    console.log("Hello World!");
+  }  
+}
