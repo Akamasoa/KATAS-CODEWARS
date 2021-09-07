@@ -8,3 +8,6 @@ past(0, 1, 1) == 61000
 Note! h, m and s will be only Natural numbers! Waiting for translations and Feedback! Thanks!
 */
 
+function past(h, m, s){
+  return ((h*3600)+(m*60)+s)*1000;
+}
