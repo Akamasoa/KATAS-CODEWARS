@@ -7,3 +7,6 @@ paperwork(5, 5) == 25
 Note! if n or m < 0 return 0! Waiting for translations and Feedback! Thanks!
 */
 
+function paperwork(n, m) {
+  return n > 0 && m > 0 ? n * m : 0;
+}
