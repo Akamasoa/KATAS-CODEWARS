@@ -31,3 +31,7 @@ const tripleTrouble = (one, two, three) => {
     .split('')
     .reduce((total, _, i) => `${total}${one[i]}${two[i]}${three[i]}`, '')
 }
+
+// Function Export
+module.exports = tripleTrouble
+
