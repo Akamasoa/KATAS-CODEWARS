@@ -49,3 +49,7 @@ test('Test 2', () => {
 test('Test 3', () => {
   expect(tripleTrouble('Bm', 'aa', 'tn')).toBe('Batman')
 })
+
+test('Test 4', () => {
+  expect(tripleTrouble('LLh', 'euo', 'xtr')).toBe('LexLuthor')
+})
