@@ -35,3 +35,10 @@ const tripleTrouble = (one, two, three) => {
 // Function Export
 module.exports = tripleTrouble
 
+//Test
+const tripleTrouble = require('.')
+
+test('Test 1', () => {
+  expect(tripleTrouble('this', 'test', 'lock')).toBe('ttlheoiscstk')
+})
+
