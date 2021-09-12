@@ -11,3 +11,13 @@ Examples:
     scoobydoo.bark(); // undefined
 Notes:
     Use method prototypes to enable all Dogs to bark.
+*/
+
+//Long Solution:
+
+function Dog(breed) {
+  this.breed = breed
+}
+Dog.prototype.bark = function() {
+  return 'Woof'
+}
