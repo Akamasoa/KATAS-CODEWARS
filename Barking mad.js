@@ -16,8 +16,29 @@ Notes:
 //Long Solution:
 
 function Dog(breed) {
-  this.breed = breed
+  this.breed = breed;
 }
 Dog.prototype.bark = function() {
-  return 'Woof'
+  return 'Woof';
 }
+
+//Short Solution:
+
+class Dog {
+  constructor(breed) {
+    this.breed = breed;
+  }
+
+  bark() {
+    return 'Woof';
+  }
+}
+
+const snoopy = new Dog('Beagle');
+const scoobydoo = new Dog('Great Dane');
+
+snoopy.bark();
+scoobydoo.bark();
+
+// Function Export
+module.exports = Dog
