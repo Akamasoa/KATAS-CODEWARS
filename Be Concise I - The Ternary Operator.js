@@ -13,3 +13,15 @@ Description:
     Don't you think the whole "You're a(n) <insert_something_here>" is very repetitive? ;) Perhaps we can shorten it?
     Whatever you do, do not change what the function does. Good luck :)
 */
+
+//Long Solution:
+
+const describeAge = age =>{
+  let lifeStage = 'elderly';
+
+  if (age <= 64) lifeStage =  'adult';
+  if (age <= 17) lifeStage = 'teenager';
+  if (age <= 12) lifeStage = 'kid';
+
+  return `You’re a(n) ${lifeStage}`;
+}
