@@ -14,6 +14,12 @@ Description:
     Whatever you do, do not change what the function does. Good luck :)
 */
 
+//Short Solution (with Ternary Operator):
+
+function describeAge(a){
+return `You're a(n) ${a<13?'kid':a<18?'teenager':a<65?'adult':'elderly'}`;
+}
+
 //Long Solution:
 
 const describeAge = age =>{
