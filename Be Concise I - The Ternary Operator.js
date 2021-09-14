@@ -25,3 +25,6 @@ const describeAge = age =>{
 
   return `You’re a(n) ${lifeStage}`;
 }
+
+// Function Export
+module.exports = describeAge
