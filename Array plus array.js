@@ -13,3 +13,7 @@
   Solutions Link:
     https://www.codewars.com/kata/array-plus-array/solutions
 */
+
+// Long Solution
+const arrayPlusArray = (array1, array2) =>
+  [...array1, ...array2].reduce((total, value) => total + value, 0);
