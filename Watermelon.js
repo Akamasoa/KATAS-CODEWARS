@@ -20,4 +20,12 @@ divide(5) === false // 5 = 2 + 3
 divide(6) === true  // 6 = 2 + 4
 */
 
-
+function divide(weight){
+ let a=weight-2;
+ let b=weight%2;
+ if (a>1&&b==0){
+   return true;
+ }else{
+ return false;
+ }
+}
