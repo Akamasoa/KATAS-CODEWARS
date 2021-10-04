@@ -15,3 +15,8 @@
     stringClean('123456789') == ''
     stringClean('This looks5 grea8t!') == 'This looks great!'
 */
+
+const stringClean = s => s.replace(/\d/g, '');
+
+//Function Export
+module.exports = stringClean
