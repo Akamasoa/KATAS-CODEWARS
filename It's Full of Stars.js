@@ -16,3 +16,11 @@ If the number of rows or columns is 0 or less, return an empty string ( "" ).
 Good luck!
 */
 
+function printStars(rows, columns) {
+  if (rows<=0||columns<=0) return ''
+  const arr=[];
+  for (let i=0;i<rows;i++){
+  arr.push('*'.repeat(columns))
+  }
+  return arr.join('\n');
+}
