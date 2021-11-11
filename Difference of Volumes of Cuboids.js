@@ -5,3 +5,7 @@ For example, if the parameters passed are ([2, 2, 3], [5, 4, 1]), the volume of 
 Your function will be tested with pre-made examples as well as random ones.
 If you can, try writing it in one line of code.
 */
+
+function find_difference([a,b,c], [d,e,f]) {
+  return Math.abs(a*b*c-d*e*f)
+}
