@@ -5,3 +5,6 @@ baby says("yum");
 you say("yum yum");
 */
 
+function babyRepeat(babble){
+  return babble+' '+babble;
+}
