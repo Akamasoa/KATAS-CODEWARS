@@ -15,3 +15,7 @@
   Solutions Link:
     https://www.codewars.com/kata/will-you-make-it/solutions
 */
+
+//Long Solution;
+const zeroFuel = (distanceToPump, mpg, fuelLeft) =>
+  mpg * fuelLeft >= distanceToPump;
