@@ -11,3 +11,9 @@
   Solutions Link:
     https://www.codewars.com/kata/mr-freeze/solutions
 */
+
+// Long Solution:
+const MrFreeze = {};
+
+Object.freeze(MrFreeze);
+
