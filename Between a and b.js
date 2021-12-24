@@ -1,1 +1,7 @@
-
+/*
+Description:
+Return product of numbers between a and b (both non-negative). If it's impossible then return 'Error' in JavaScript or throw an exception in C#.
+For example:
+product(2,5) => 3 * 4 = 12
+product(5,2) => 'Error' / Exception
+*/
