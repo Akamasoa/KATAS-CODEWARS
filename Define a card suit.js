@@ -20,4 +20,9 @@
     https://www.codewars.com/kata/define-a-card-suit/solutions
 */
 
-
+const defineSuit = card => {
+  if (card.includes('♣')) return 'clubs';
+  if (card.includes('♦')) return 'diamonds';
+  if (card.includes('♥')) return 'hearts';
+  if (card.includes('♠')) return 'spades';
+}
