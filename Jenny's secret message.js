@@ -14,3 +14,14 @@
     https://www.codewars.com/kata/jennys-secret-message/solutions
 */
 
+//Long Solution:
+/*
+function greet(name) {
+  if (name === 'Johnny') return 'Hello, my love!';
+  return 'Hello, ' + name + '!';
+}
+*/
+
+//Short Solution:
+const greet = name =>
+  name === 'Johnny' ? 'Hello, my love!' : `Hello, ${name}!`;
