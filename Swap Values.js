@@ -14,3 +14,4 @@
     https://www.codewars.com/kata/swap-values/solutions
 */
 
+const swapValues = array => array.reverse();
