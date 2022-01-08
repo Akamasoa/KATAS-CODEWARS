@@ -19,3 +19,7 @@ Array's length > 2.
 
 More details here: https://en.wikipedia.org/wiki/Comma-separated_values
 */
+
+function toCsvText(array) {
+   return array.join('\n');
+}
