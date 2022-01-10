@@ -10,3 +10,8 @@ The name attribute is passed with this.name (JS), @name (Ruby) or self.name (Pyt
 Reference: JS, Ruby, Python.
 */
 
+class Cat extends Animal {
+  speak() {
+    return `${this.name} meows.`;
+  }
+}
