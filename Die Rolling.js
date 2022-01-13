@@ -6,3 +6,6 @@ dice(2, 7); // returns a value that can be 2, 3, 4, 5, 6, 7
 Good luck!
 */
 
+function dice(min, max){ 
+   return Math.round(Math.random() * (max - min)) + min;
+}
