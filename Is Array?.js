@@ -8,3 +8,6 @@ isArray('') => false
 isArray([0]) => true
 */
 
+function isArray(value) {
+  return Array.isArray(value);
+}
