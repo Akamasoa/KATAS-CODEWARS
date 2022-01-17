@@ -8,3 +8,6 @@ hello(13) => 'Hello 13'
 hello('there') => 'Hello there'
 */
 
+function hello(name) {
+  return `Hello ${name}`;
+}
