@@ -35,3 +35,8 @@ findInQueue(queue, 1) --> Returns "Alice"
 findInQueue(queue, 3) --> Returns "Will"
 */
 
+class Kata {
+  static findInQueue(queue,n) {
+    return queue[n-1];
+  }
+}
