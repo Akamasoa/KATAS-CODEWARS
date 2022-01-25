@@ -10,3 +10,5 @@ Examples:
   myArr = ['Keep', 'Remove', 'Keep', 'Remove', 'Keep', ...];
 */
 
+// Long Solution:
+const removeEveryOther = array => array.filter((_, i) => i % 2 === 0);
