@@ -17,3 +17,9 @@
     sleigh.authenticate("Santa Claus", "Ho Ho!"); // must return FALSE
     sleigh.authenticate("jhoffner", "CodeWars"); // Nope, even Jake is not allowed to use the sleigh ;)
 */
+
+class Sleigh {
+  authenticate(name, password) {
+    return name === 'Santa Claus' && password === 'Ho Ho Ho!';
+  }
+}
