@@ -11,3 +11,5 @@
     wrappedObj.value === "MyWrappedString"
     Unfortunately, the code is not working as designed. Please fix the code so that it behaves as specified.
 */
+
+const wrap = value => ({ value });
