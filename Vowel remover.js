@@ -14,4 +14,5 @@
     Don't worry about uppercase vowels
 */
 
+const shortcut = string => string.replace(/[aeiou]/g, '');
 
