@@ -8,3 +8,8 @@
     The returned value must be a string, and have '***' between each of its letters.
 */
 
+const twoSort = s =>
+  s.sort()[0]
+   .split('')
+   .join('***');
+
