@@ -11,4 +11,5 @@
     but these will not appear at the beginning or end of the string. They will not contain numerals.
 */
 
-
+const feast = (beast, dish) =>
+  beast[0] === dish[0] && beast[beast.length - 1] === dish[dish.length - 1];
