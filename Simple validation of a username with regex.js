@@ -11,3 +11,4 @@
     Length should be between 4 and 16 characters.
 */
 
+const validateUsr = username => /^([a-z]|\d|_){4,16}$/.test(username);
