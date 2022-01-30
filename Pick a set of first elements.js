@@ -12,3 +12,7 @@ first(arr, 0) => [];
 Note:
 Don't modify array argument.
 */
+
+function first(arr, n=1) {
+ return arr.slice(0,n);
+}
