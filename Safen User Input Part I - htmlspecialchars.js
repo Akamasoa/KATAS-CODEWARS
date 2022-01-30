@@ -15,3 +15,9 @@ Extension
 If you are an experienced Javascript programmer, try shortening your code as much as possible and optimise it to minimise run time. Experienced programmers should be able to complete this exercise in one line of code.
 */
 
+function htmlspecialchars(formData) {
+  return formData.replace(/&/g, "&amp;")
+                 .replace(/"/g, "&quot;")
+                 .replace(/</g, "&lt;")
+                 .replace(/>/g, "&gt;");
+}
