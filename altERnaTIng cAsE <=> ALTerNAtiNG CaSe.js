@@ -13,3 +13,6 @@ Define String.prototype.toAlternatingCase (or a similar function/method such as 
 As usual, your function/method should be pure, i.e. it should not mutate the original string.
 */
 
+String.prototype.toAlternatingCase = function () {
+    return this.split("").map(a => a === a.toUpperCase()? a.toLowerCase(): a.toUpperCase()).join('');
+}
