@@ -4,3 +4,6 @@ Simple challenge - eliminate all bugs from the supplied code so that the code ru
 There will only be one 'longest' word.
 */
 
+function findLongest(str) {
+    return Math.max(...str.split(' ').map(word=>word.length));
+}
