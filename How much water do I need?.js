@@ -6,3 +6,8 @@ My washing machine is an old model that can only handle double the amount of loa
 The answer should be rounded to the nearest 2 decimal places.
 */
 
+function howMuchWater(W,L,C){
+ if (C>2*L) return 'Too much clothes';
+ if (C<L) return 'Not enough clothes';
+return  +((W * 1.1 ** (C - L)).toFixed(2));
+}
