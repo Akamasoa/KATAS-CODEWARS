@@ -7,3 +7,14 @@ Ghost objects are given a random color attribute of white" or "yellow" or "purpl
 ghost = new Ghost();
 ghost.color //=> "white" or "yellow" or "purple" or "red"
 */
+
+class Ghost {
+  constructor() {
+    this.colors = ['white', 'yellow', 'purple', 'red'];
+  }
+
+  get color() {
+    const randomPosition = Math.trunc(Math.random() * this.colors.length);
+    return this.colors[randomPosition];
+  }
+}
