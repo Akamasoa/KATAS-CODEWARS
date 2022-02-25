@@ -8,3 +8,11 @@ Your task is to complete this Class, the Person class has been created. You must
 johns age is 34
 Reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
 */
+
+class Person {
+  constructor(name,age) {
+  this.name=name;
+  this.age=age;
+  }
+  get info(){ return`${this.name}s age is ${this.age}`}
+}
