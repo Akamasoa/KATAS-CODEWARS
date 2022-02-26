@@ -18,3 +18,4 @@ iceBrickVolume(1, 10, 2); // => 16
 iceBrickVolume(5, 30, 7); // => 1150
 */
 
+const iceBrickVolume = (r, x, y) => 2 * r * r * (x - y);
