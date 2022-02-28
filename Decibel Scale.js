@@ -17,3 +17,4 @@ Description:
     Results are automatically rounded to the nearest integer by the test cases.
 */
 
+const dBScale = intensity => 10 * Math.log10(intensity / 10 ** -12);
