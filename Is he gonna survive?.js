@@ -4,3 +4,6 @@ A hero is on his way to the castle to complete his mission. However, he's been t
 Return True if yes, False otherwise :)
 */
 
+function hero(bullets, dragons){
+  return bullets >= dragons * 2;
+}
