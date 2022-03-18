@@ -6,3 +6,6 @@ Example
 checkType("aaa") = string
 */
 
+function checkType(value) {  
+  return typeof value;
+}
