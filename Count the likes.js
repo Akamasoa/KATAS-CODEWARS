@@ -14,3 +14,7 @@ evalLikes(['likely','story']) // ==> false;
 Your solution must be case-insensitive but you do not need to worry about punctuation (the device you have been fitted with automatically filters this out).
 */
 
+var evalLikes = function(words){
+  let likes=words.join(' ').match(/\blike\b/gi)
+  return likes?likes.length/words.length>=0.05:false
+}
