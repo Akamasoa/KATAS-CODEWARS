@@ -18,3 +18,21 @@ var evalLikes = function(words){
   let likes=words.join(' ').match(/\blike\b/gi)
   return likes?likes.length/words.length>=0.05:false
 }
+
+//Long solution:
+
+/*
+var evalLikes = function(words)
+{
+  let likeCount = 0;
+  for(let i = 0; i< words.length; i++)
+  {
+    if(words[i].toLowerCase() == "like")
+    {
+      likeCount++;
+    }
+  }
+  return (likeCount / words.length > 0.05);
+  //return false;
+}
+*/
