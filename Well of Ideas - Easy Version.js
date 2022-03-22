@@ -11,3 +11,4 @@ const well = x => {
          good_count < 3 ? 'Publish!' : 'I smell a series!';
 }
 
+//https://www.codewars.com/kata/57f222ce69e09c3630000212/solutions/javascript
