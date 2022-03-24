@@ -9,3 +9,9 @@ Your job is to fix it and make sure the proper value is returned.
 
 ood luck
 */
+
+function bug() {
+  return {
+    foo: true
+  }
+}
