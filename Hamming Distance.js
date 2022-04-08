@@ -22,3 +22,19 @@ Second Number. 1 <= b <= 2^20
 [output] an integer
 */
 
+function hammingDistance (a, b) {
+  const decToBin= (n)=>{
+    return("00000000000000000000"+(n >>> 0).toString(2)).slice(-20);
+  }
+
+  let aBin = decToBin(a);
+  let bBin = decToBin(b);
+  let acc = 0;
+
+  for(let i = 0; i<20 ; i++ ){
+    if(aBin.charAt(i) !== bBin.charAt(i) ){
+      acc++;
+    }
+  }
+  return acc;
+}
