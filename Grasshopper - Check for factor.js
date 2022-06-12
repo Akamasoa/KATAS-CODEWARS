@@ -15,3 +15,6 @@ For example 2 is not a factor of 7 because:
 7 % 2 = 1
 */
 
+function checkForFactor (base, factor) {
+  return base % factor === 0;
+}
