@@ -13,3 +13,16 @@ Numerical Score	Letter Grade
 Tested values are all between 0 and 100. Theres is no need to check for negative values or values greater than 100.
 */
 
+function getGrade (s1, s2, s3) {
+  let q = (s1 + s2 + s3) / 3;
+  if (q >= 90)
+    return 	'A';
+  if (q >= 80)
+    return 	'B';
+  if (q >= 70)
+    return 	'C';
+  if (q >= 60)
+    return 	'D';
+  if (q >= 0)
+    return 	'F';
+}
