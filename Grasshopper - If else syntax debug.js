@@ -8,3 +8,6 @@ checkAlive/CheckAlive should return true if the player's health is greater than 
 checkAlive receives one parameter health which will always be a whole number between -10 and 10.
 */
 
+function checkAlive(health) {
+  return health > 0;
+}
