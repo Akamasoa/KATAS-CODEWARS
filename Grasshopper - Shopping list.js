@@ -17,3 +17,8 @@ frenchFries
 Create a variable named totalPrice that finds the cost of all of the food.
 */
 
+const sandwiches = 4;
+const salads = 6;
+const wraps = 5;
+const frenchFries = 10;
+const totalPrice = (sandwiches+salads+wraps+frenchFries)*4.74;
