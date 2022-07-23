@@ -10,3 +10,6 @@ The possible inputs and the required actions are:
 anything else: return "Not a valid input."
 */
 
+function main (input) {
+  return input==="forward"?forward():input==="backward"?backward():"Not a valid input."
+}
