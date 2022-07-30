@@ -6,3 +6,7 @@ For everyone like me who hasn't used Pythagoras' theorem for a long time, basica
 write a function that returns the length of the third side (the hypotenuse - it's the side facing the right angle and not connected to it by either end).
 */
 
+function pythagorean(sideA, sideB){
+  // Your solution goes here
+    return Math.hypot(sideA,sideB);
+}
