@@ -18,4 +18,6 @@ Examples
 90, 2  -->  "30x^3"
 */
 
-
+function integrate(coefficient, exponent) {
+  return `${coefficient / (exponent + 1)}x^${exponent + 1}`;
+}
