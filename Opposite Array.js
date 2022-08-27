@@ -6,3 +6,6 @@ Ruby/Python: function name will be opposite_list
 Haskell: function name will be opps
 */
 
+function oppositeArray(numbers) {
+  return numbers.map(v => v * -1);
+}
