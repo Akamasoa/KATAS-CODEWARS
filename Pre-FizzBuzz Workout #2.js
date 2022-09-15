@@ -12,3 +12,12 @@ Multiples of 5 return "Buzz"
 Your job is to write an algorithm that receives the input and outputs the correct value.
 */
 
+function preFizz(n) {
+  if (n%3===0&&n%5===0) 
+    return 'FizzBuzz';
+  if (n%3===0) 
+    return 'Fizz';
+  if (n%5===0) 
+    return 'Buzz';
+  return n;
+}
