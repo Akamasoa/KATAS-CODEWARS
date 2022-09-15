@@ -8,3 +8,4 @@ Your expected outputs: an array of positive integers from 1 to n
 Your job is to write an algorithm that gets you from the input to the output.
 */
 
+const preFizz = n => Array.from({length: n}, (_, i) => i + 1);
