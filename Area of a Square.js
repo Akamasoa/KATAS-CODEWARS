@@ -8,3 +8,6 @@ Use π = Math.PI (M_PI in PHP)
 Round to two decimals.
 */
 
+function squareArea(A){
+  return Number(Math.pow(2 * A / 3.1416, 2).toFixed(2));
+}
