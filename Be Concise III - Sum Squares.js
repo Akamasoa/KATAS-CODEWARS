@@ -16,3 +16,6 @@ Try researching about built-in Array methods; they may help shorten your code a 
 Good luck!
 */
 
+function sumSquares(array) {
+  return array.reduce((a, b) => a + b ** 2, 0);
+}
