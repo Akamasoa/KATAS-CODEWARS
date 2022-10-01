@@ -9,3 +9,6 @@ Examples (input --> output):
 -100 --> "-100"
 */
 
+function numberToString(num) {
+  return num.toString();
+}
