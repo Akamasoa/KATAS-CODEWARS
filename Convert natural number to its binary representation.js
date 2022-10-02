@@ -9,3 +9,6 @@ You can find some useful informations under this link: https://en.wikipedia.org/
 Input numbers will be greater than or equal to 0.
 */
 
+function intToBin(number) {
+  return number.toString(2);
+}
