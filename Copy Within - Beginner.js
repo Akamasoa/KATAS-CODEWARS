@@ -26,3 +26,6 @@ Makes sense? Give it a go...
 hint: there is an array method that is very helpful for this job.
 */
 
+function copy(array, start, stop, place){
+  return array.copyWithin(place, start, stop);
+};
