@@ -16,3 +16,16 @@ remove("!!!Hi !!hi!!! !hi",5) === "Hi hi!!! !hi"
 remove("!!!Hi !!hi!!! !hi",100) === "Hi hi hi"
 */
 
+function remove(s,n){
+ for(let i = 0; i < n; i++){
+   s = s.replace("!", "");
+ }
+  return s;
+}
+
+/*
+Short version:
+function remove(s,n){
+  return n>0 ? remove(s.replace('!', ''), n-1) : s;
+}
+*/
