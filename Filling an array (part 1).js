@@ -9,3 +9,10 @@ For example, the following code will result in an array containing the numbers 0
 arr(5) // => [0,1,2,3,4]
 */
 
+function arr(n){
+  let newArr = [];
+  for(let i = 0; i < n; i++){
+    newArr.push(i);
+  }
+  return newArr;
+}
