@@ -14,3 +14,7 @@ Your function would return the following array:
 The elements in the returned array should be in the same order as in the initial array passed to your function, albeit with the 'vowels' removed. Note that all of the strings will be in the same case as those provided, and some elements may be repeated.
 */
 
+function vowelFilter (letters) {
+  let vowels = ["a", "e", "i", "o", "u"];
+    return letters.filter(v => !vowels.includes(v));
+};
