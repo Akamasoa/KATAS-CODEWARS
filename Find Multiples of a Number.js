@@ -6,3 +6,17 @@ For example, if the parameters passed are (2, 6), the function should return [2,
 
 If you can, try writing it in only one line of code.
 */
+
+function findMultiples(integer, limit) {
+  let result = [];
+  for (let i = integer; i <= limit; i += integer){
+    result.push(i);
+  }
+  return result;
+}
+
+//Short solution:
+//  return Array(Math.floor(limit/int)).fill(1).map((x,i)=>int*(i+1));
+
+//  return Array.from({length: parseInt(limit/int)}, (_,i)=> (i+1)*int )
+
