@@ -8,3 +8,20 @@ If the user guess right it should return true
 
 Can you finish the game so all the rules are met?
 */
+
+class Guesser {
+  constructor(number, lives) {
+    this.number = number;
+    this.lives = lives;
+  }
+  
+  guess(n) {
+  if (!this.lives) throw new Error('You have no more life'){
+   if (n === this.number){ 
+     return true;
+   }
+  }
+  this.lives--;
+    return false;
+  }
+}
