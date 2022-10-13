@@ -9,3 +9,6 @@ Write a function calculating distance between Point a and Point b.
 Tests round answers to 6 decimal places.
 */
 
+function distanceBetweenPoints(a, b) {
+  return Math.hypot(a.x - b.x, a.y - b.y);
+}
