@@ -10,3 +10,4 @@ nthEven(1298734) //=> 2597466
 The input will not be 0.
 */
 
+const nthEven = n => n * 2 - 2;
