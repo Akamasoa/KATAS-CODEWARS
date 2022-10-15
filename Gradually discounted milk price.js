@@ -34,7 +34,6 @@ function milkPrice(litres, pricePerLitre) {
   while (litres > 0){
     l.push(litres);
     litres -= litres;
-    
     p.push(pricePerLitre);
   }
   return Math.round(p.reduce((a, b, i) => a + b * l[i], 0) * 100) / 100}
