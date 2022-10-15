@@ -20,7 +20,7 @@ Note: partial liters should be managed.
 function milkPrice(litres, pricePerLitre) {
  let p = [];
  let l = [];
-  while (litres>1){
+  while (litres > 1){
     litres -= 2;
     pricePerLitre -= 0.05;
     l.push(2);
