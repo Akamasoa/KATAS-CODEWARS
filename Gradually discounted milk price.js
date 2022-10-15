@@ -17,3 +17,25 @@ The final result should be rounded with only 2 decimals.
 Note: partial liters should be managed.
 */
 
+function milkPrice(litres, pricePerLitre) {
+ let p = [];
+ let l = [];
+  while (litres>1){
+    litres -= 2;
+    pricePerLitre -= 0.05;
+    l.push(2);
+    p.push(pricePerLitre);
+  }
+  while (litres === 1){
+    litres -= 1;
+    l.push(1);
+    p.push(pricePerLitre);
+  }
+  while (litres > 0){
+    l.push(litres);
+    litres -= litres;
+    
+    p.push(pricePerLitre);
+  }
+  return Math.round(p.reduce((a, b, i) => a + b * l[i], 0) * 100) / 100}
+}
