@@ -13,3 +13,6 @@ The function takes in the arrays as parameters, for those who don't know about a
 Goodluck!
 */
 
+function lowest(a, b, c) {
+  return [Math.min(...a), Math.min(...b), Math.min(...c)];
+}
