@@ -21,3 +21,6 @@ Math.round(x) (of course)
 Math.pow(x,y) (returns x to the power of y - e.g. Math.pow(3,4) == 81)
 */
 
+Math.roundTo = function (number, precision) {
+ return + (number).toFixed(precision);
+}
