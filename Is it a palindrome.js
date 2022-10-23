@@ -11,3 +11,7 @@ function isPalindrome(x) {
   x = x.toLowerCase();
   return x === x.split``.reverse().join``;
 }
+
+//const isPalindrome = (x) => {
+// return x.split("").reverse().join("").toLowerCase() === x.toLowerCase() ? true : false;
+//}
