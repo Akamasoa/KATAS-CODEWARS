@@ -7,3 +7,7 @@ In Racket, the function is called palindrome?
 (palindrome? "Yay")  ; returns #t
 */
 
+function isPalindrome(x) {
+  x = x.toLowerCase();
+  return x === x.split``.reverse().join``;
+}
