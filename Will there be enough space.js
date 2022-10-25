@@ -19,3 +19,11 @@ enough(10, 5, 5);
 enough(100, 60, 50);
 // 10, He can't fit 10 out of 50 waiting
 */
+
+function enough(cap, on, wait) {
+  return (on + wait > cap) ? on + wait - cap : 0;
+}
+
+//function enough(cap, on, wait) {
+//  return Math.max(wait + on - cap, 0);
+//}
