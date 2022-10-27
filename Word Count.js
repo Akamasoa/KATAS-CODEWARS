@@ -20,3 +20,6 @@ Non-whitespace (ex. breakspace, unicode chars) should be assumed as delimiter
 Be sure that words with chars like -, ', ` are counted right.
 */
 
+function countWords(str) {
+  return str.split(/\s/g).filter(Boolean).length;
+}
