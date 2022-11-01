@@ -7,3 +7,6 @@ simply tranform an array into a string, like so:
 have fun coding!
 */
 
+function transform(array) {
+	return array.map(v => v === null ? 'null' : v).join``;
+}
