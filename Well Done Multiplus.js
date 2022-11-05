@@ -9,3 +9,12 @@ The output must be an array of strings.
 Input Example [2,3,5,6] Output Exemple ["Well", "Done", "Well Done"]
 */
 
+function multiplus(array){
+ let arr = [];
+   for (let i = 0; i < array.length; i++) {
+     if (array[i] % 3 === 0 && array[i] % 2 === 0) arr.push("Well Done");
+     else if (array[i] % 3 === 0) arr.push("Done");
+     else if (array[i] % 2 === 0) arr.push("Well");
+   }
+   return arr;
+}
