@@ -17,3 +17,7 @@ NB. Study the tests to see how your WithTitle HOC will be used. In particular th
 Enjoy!
 */
 
+const WithTitle = withProps((props) => {
+  let title = props.items.length?`You have ${props.items.length} items in your basket`:"Your basket is empty";
+  return {...props,title};
+});
