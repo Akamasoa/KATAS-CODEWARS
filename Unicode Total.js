@@ -6,3 +6,6 @@ examples:
 uniTotal("a") == 97 uniTotal("aaa") == 291
 */
 
+function uniTotal(str) {
+return [...str].reduce((total, char) => total + char.charCodeAt(0), 0);
+}
