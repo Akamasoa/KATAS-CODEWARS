@@ -13,3 +13,6 @@ C# => Tools.FromCharCode(97) // a
 Reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
 */
 
+var ArrowFunc = function(arr) {
+  return arr.map( x => String.fromCharCode(x) ).join(''); 
+}
