@@ -5,3 +5,9 @@ Write a function caseInSwitch which uses a switch statement to test the variable
 Then, test caseInSwitch for the argument 1 and print the value of answer to the console.
 */
 
+function caseInSwitch(val) {
+  if (val===1) return "alpha";
+  if (val===2) return "beta";
+  if (val===3) return "gamma";
+  if (val===4) return "delta";
+}
