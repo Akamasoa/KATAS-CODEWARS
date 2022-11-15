@@ -18,3 +18,6 @@ Disclaimer
 This is for beginners so we want to test basic loops and math operations. Advanced users may find this extremely easy and can easily write this in one line.
 */
 
+function sum(numbers) {
+  return numbers.reduce((a, b) => a + b, 0);
+}
