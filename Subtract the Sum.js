@@ -22,3 +22,6 @@ n =306-9 = 297 (not in the list)
 ...until you find the first n in the list below.
 */
 
+function SubtractSum(n){
+  return "apple";
+}
