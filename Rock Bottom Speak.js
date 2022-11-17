@@ -9,7 +9,10 @@ For this challenge, you're going to create a function that translates plain engl
 The function should take a string, and replace every space between the words with a 'PLHHHH', which is representative of the raspberry noise that he makes.
 
 For example:
-   rockBottom("I cant understand your accent") // => 'IPLHHHHcantPLHHHHunderstandPLHHHHyourPLHHHHaccent'
+  rockBottom("I cant understand your accent") // => 'IPLHHHHcantPLHHHHunderstandPLHHHHyourPLHHHHaccent'
   rockBottom('The next bus wont be coming until morning') // => 'ThePLHHHHnextPLHHHHbusPLHHHHwontPLHHHHbePLHHHHcomingPLHHHHuntilPLHHHHmorning'
 */
 
+function rockBottom(arr) {
+  return arr.replace(/ /g,'PLHHHH');
+}
