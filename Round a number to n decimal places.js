@@ -7,3 +7,6 @@ Round(1.56881,4)==>"1.5688"
 Round(0.3333,2)==> "0.33"
 */
 
+function Round(n,p){
+  return n.toFixed(p);
+}
