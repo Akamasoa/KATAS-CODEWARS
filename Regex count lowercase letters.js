@@ -16,3 +16,6 @@ lowercaseCount("ABC123!@€£#$%^&*()_-+=}{[]|\':;?/>.<,~"); ===> 0
 lowercaseCount("abcdefghijklmnopqrstuvwxyz"); ===> 26
 */
 
+function lowercaseCount(str){
+     return (str.match(/[a-z]/g) || []).length;
+}
