@@ -14,3 +14,7 @@ ball1.ballType     //=> "regular"
 ball2.ballType     //=> "super"
 */
 
+class Ball{
+constructor(ballType='regular'){
+this.ballType = ballType}
+}
