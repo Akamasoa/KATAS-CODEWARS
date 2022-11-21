@@ -11,3 +11,6 @@ Examples(Input ==> Output)
 123456   ==> false
 */
 
+function isPalindrome(line) {
+  return line == line.toString().split("").reverse().join("");
+}
