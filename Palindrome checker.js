@@ -8,3 +8,6 @@ If the given string is a palindrome, return true.
 If not, or in case of null input (None for Python) return false.
 */
 
+function isPalindrome(str) {
+  return str.toLowerCase() === str.reverse().join``.toLowerCase();
+}
