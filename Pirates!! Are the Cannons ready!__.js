@@ -25,3 +25,6 @@ If all answers are 'aye' then Fire! if one or more are 'nay' then Shiver me timb
 Also, check out the new Pirates!! Kata: https://www.codewars.com/kata/57e2d5f473aa6a476b0000fe
 */
 
+const cannonsReady = (gunners) => {
+ return  Object.values(gunners).every(response => response === 'aye') ? 'Fire!' : 'Shiver me timbers!';
+}
