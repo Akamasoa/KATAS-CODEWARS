@@ -11,3 +11,10 @@ You will receive a vaulter's height in meters (which will always lie in a range 
 Hint: Based on the two guidelines given above, you will want to account for the change in starting mark per change in body height. This involves a linear relationship.
 */
 
+function startingMark(bodyHeight){
+  // Remember: Body height of 1.52 m --> starting mark: 9.45 m
+  //           Body height of 1.83 m --> starting mark: 10.67 m
+  // All other starting marks are based on these guidelines!
+  const m = (10.67 - 9.45) / (1.83 - 1.52);
+  return Math.round((m * bodyHeight + 10.67 - m * 1.83) * 100) / 100;
+}
