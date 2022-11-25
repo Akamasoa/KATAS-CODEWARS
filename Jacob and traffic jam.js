@@ -17,3 +17,6 @@ The function should return amount of hours that it will take Jacob to make his w
 All three arguments are integers greater than 0.
 */
 
+function trafficJam(trafficSpeed, jacobSpeed, dist){
+  return trafficSpeed < jacobSpeed ? dist/trafficSpeed : dist/jacobSpeed;
+}
