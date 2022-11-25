@@ -9,4 +9,6 @@ Obs: x and y will be naturals, so DON'T take fractions into consideration;
 Great coding <3
 */
 
-
+function power(x,y){
+  return x ** y;
+}
