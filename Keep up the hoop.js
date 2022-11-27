@@ -9,3 +9,6 @@ Write a program where Alex can input (n) how many times the hoop goes round and 
 -If he doesn't get 10 hoops, return the string "Keep at it until you get it".
 */
 
+function hoopCount (n) {
+   return n >= 10 ? "Great, now move on to tricks" : "Keep at it until you get it";
+}
