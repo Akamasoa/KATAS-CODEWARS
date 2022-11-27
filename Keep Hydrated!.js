@@ -18,3 +18,10 @@ time = 11.8--> litres = 5
 function litres(time) {
   return Math.floor(time * 0.5);
 }
+
+/*
+Sin Math o ParseInt:
+function litres(time) {
+  return time % 2 == 0 ? time * 0.5 : (time - time % 2) * 0.5;
+}
+*/
