@@ -13,3 +13,7 @@ Where ~ is the water and | is the side of the bath.
 
 Remember the sides of the bath (|) do not count as water! There will always be two sides.
 */
+
+function bath(string, bath){
+  return bath.length - 2 - string.length < 0;
+}
