@@ -10,3 +10,14 @@ Return the correct ammount of change using the least number of coins.
 Note: Zero and negative values are not allowed and an empty dictionary is to be returned
 */
 
+function getChange(m) {
+  const coins = [25, 10, 5, 1];
+  let result = 0;
+  for (const coin of coins) {
+    while (m >= coin) {
+      m -= 25;
+      result++;
+    }
+  }
+  return result;
+}
