@@ -13,3 +13,6 @@ Get rid of them. Only the ending ones.
 Zero alone is fine, don't worry about it. Poor guy anyway
 */
 
+function noBoringZeros(n) {
+  return +(`${n}`.replace(/0+$/, ''));
+}
