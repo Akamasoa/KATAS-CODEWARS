@@ -31,3 +31,13 @@ This Kata teaches you the very basic of method creation.
 Good luck!
 */
 
+class Ship {
+  constructor(draft, crew) {
+    this.draft = draft;
+    this.crew = crew;
+  }
+
+  isWorthIt() {
+    return this.draft - 1.5 * this.crew > 20;
+  }
+}
