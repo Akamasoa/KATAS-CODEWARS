@@ -14,3 +14,11 @@ Example
 Input:  1,3,5,6,7,8 Output: 1,2,3,4,5,6,7,8
 */
 
+function pipeFix(numbers){
+  let q = Math.max.apply(null,numbers);
+  let result =[];
+  for (let i = Math.min.apply(null,numbers); i <= q; i++) {
+    result.push(i)
+    }
+return result;
+}
